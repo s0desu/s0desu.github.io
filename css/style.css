@@ -1,0 +1,54 @@
+body {
+  background: linear-gradient(
+    to right,
+    coral 0%,
+    coral 30%,
+    lightblue 30%,
+    lightblue 100%
+  );
+}
+
+@media {
+  .my-icon {
+    border-radius: 50%;
+    text-align: left;
+    height: 275px;
+    margin: 25px;
+
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.8);
+    -webkit-filter: drop-shadow(0px 3px 10px rgba(0, 0, 0, 0.8));
+    filter: drop-shadow(0px 0px 10px rgba(0, 0, 0, 0.8));
+  }
+
+.sns-icon {
+    width: 50px;
+    height: 50px;
+    border-radius: 25%;
+    text-align: left;
+    margin: 10px;
+
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.8);
+    -webkit-filter: drop-shadow(0px 1px 3px rgba(0, 0, 0, 0.8));
+    filter: drop-shadow(0px 0px 3px rgba(0, 0, 0, 0.8));
+  }
+}
+
+figure.side_image {
+  display: inline-block;
+}
+
+.side_text {
+  display: inline-block;
+  width: 600px;
+  margin-top: 5%;
+  margin-left: 30px;
+  vertical-align: top;
+}
+
+.b1dayo {
+  font-size: 75px;
+}
+
+.pdayo {
+  font-size: 35px;
+}
