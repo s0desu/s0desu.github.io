@@ -8,6 +8,22 @@ body {
   );
 }
 
+html,
+body,
+div.background {
+  height: 100%; /* 「div.background」に対してはmin-heightに対応していないブラウザ用 */
+}
+ 
+div.background {
+  min-height: 100%; /* 最小の高さ */
+  width: 300px;
+  background: #EFEFEF;
+}
+ 
+body > div.background {
+  height: auto; /* 要素を超えた分の背景が伸びないブラウザ用 */
+}
+
 @media {
   .my-icon {
     border-radius: 50%;
