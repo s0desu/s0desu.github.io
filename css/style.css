@@ -1,11 +1,6 @@
 body {
-  background: linear-gradient(
-    to right,
-    coral 0%,
-    coral 30%,
-    lightblue 30%,
-    lightblue 100%
-  );
+    background: url(image/background.jpg) repeat-y;
+    width: 100%;
 }
 
 .kage {
