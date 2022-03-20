@@ -60,8 +60,16 @@ figure.side_image {
 
 b1 {
   font-size: 75px;
+  text-shadow: 2px  2px 5px red,
+            -2px  2px 5px red,
+             2px -2px 5px red,
+            -2px -2px 5px red;
 }
 
 p {
   font-size: 35px;
+  text-shadow: 2px  2px 5px red,
+            -2px  2px 5px red,
+             2px -2px 5px red,
+            -2px -2px 5px red;
 }
