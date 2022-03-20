@@ -4,7 +4,7 @@ body {
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
-  background-color: #ffffff;
+  background-color: #666666;
 }
 
 
@@ -50,11 +50,9 @@ figure.side_image {
 }
 
 b1 {
-  color:#ffffff;
   font-size: 75px;
 }
 
 p {
-  color:#ffffff;
   font-size: 35px;
 }
