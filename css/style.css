@@ -50,8 +50,10 @@ figure.side_image {
 
 b1 {
   font-size: 75px;
+  text-shadow: 0px 0px 1px black;
 }
 
 p {
   font-size: 35px;
+  text-shadow: 0px 0px 1px black;
 }
